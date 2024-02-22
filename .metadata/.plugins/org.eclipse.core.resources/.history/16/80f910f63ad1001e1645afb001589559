@@ -1,0 +1,12 @@
+package com.sravanit.predicate;
+
+import java.util.Arrays;
+
+public class PredicateChanges {
+
+	public static void main(String[] args) {
+
+		Arrays.asList("","\t","One","Two","Three"," ","  ");
+	}
+
+}

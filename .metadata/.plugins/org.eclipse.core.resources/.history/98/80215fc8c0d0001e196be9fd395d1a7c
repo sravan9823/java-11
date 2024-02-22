@@ -1,0 +1,12 @@
+package com.sravanit.localvariable;
+
+public class LocalVariableInference {
+
+	public static void main(String[] args) {
+
+		var i;
+		int i1 = 10;
+		String x = "Sravan";
+	}
+
+}

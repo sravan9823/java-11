@@ -1,0 +1,9 @@
+package com.sravanit.lambda;
+
+public class LambdaEnhancements {
+
+	public static void main(String[] args) {
+
+	}
+
+}

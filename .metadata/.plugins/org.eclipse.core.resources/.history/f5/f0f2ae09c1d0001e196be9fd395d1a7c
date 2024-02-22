@@ -1,0 +1,16 @@
+package com.sravanit.localvariable;
+
+import java.util.ArrayList;
+
+public class LocalVariableInference {
+
+	public static void main(String[] args) {
+
+		var i = 10;
+		var d = 12.123;
+		int i1 = 10;
+		String x = "Sravan";
+		var l = new ArrayList<>();
+	}
+
+}

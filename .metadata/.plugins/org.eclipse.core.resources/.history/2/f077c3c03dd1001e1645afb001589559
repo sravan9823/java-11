@@ -1,0 +1,14 @@
+package com.sravanit.httpclient;
+
+import java.net.http.HttpClient;
+import java.net.http.HttpClient.Version;
+import java.time.Duration;
+
+public class HttpClientAPI {
+
+	public static void main(String[] args) {
+
+		HttpClient httpClient = HttpClient.newBuilder().version(HttpClient.Version.HTTP_2).connectTimeout(Duration.ofSeconds(10)).build();
+	}
+
+}

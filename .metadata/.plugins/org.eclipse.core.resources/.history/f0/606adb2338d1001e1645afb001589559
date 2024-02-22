@@ -1,0 +1,19 @@
+package com.sravanit.file;
+
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.ObjectInputStream;
+
+public class FileAPIChanges {
+
+	public static void main(String[] args) throws FileNotFoundException {
+		
+		FileInputStream fis = new FileInputStream(new File("D:\\MyWork\\Java11-WorkSpace\\05_FileAPIChanges\\resources\\sample.txt"));
+		
+		ObjectInputStream obj = new ObjectInputStream(fis);
+
+		
+	}
+
+}

@@ -1,0 +1,14 @@
+package com.sravanit.stringenhance;
+
+public class StringEnhancements {
+
+	public static void main(String[] args) {
+
+		String s1 = "Sravan";
+		String repeat = s1.repeat(2);
+		System.out.println(s1);
+		System.out.println(repeat);
+
+	}
+
+}

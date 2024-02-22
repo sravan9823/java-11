@@ -1,0 +1,21 @@
+package com.sravanit.classenhance;
+
+import java.util.Arrays;
+
+public class ClassEnhancements {
+
+	public static void main(String[] args) {
+
+		System.out.println(Arrays.toString(ClassEnhancements.class.getNestMembers()));
+		
+		System.out.println(Arrays.toString(HashMap.class.getNestMembers()));
+
+	}
+
+	class A {
+
+		class B {
+
+		}
+	}
+}

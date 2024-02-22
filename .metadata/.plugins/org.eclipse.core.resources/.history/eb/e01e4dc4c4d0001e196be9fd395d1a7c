@@ -1,0 +1,17 @@
+package com.sravanit.stringenhance;
+
+public class StringEnhancements {
+
+	public static void main(String[] args) {
+
+		String str = " Sravan ";
+		System.out.println(str); // Sravan
+		System.out.println(str.repeat(2)); // Sravan Sravan
+		//str.repeat(Integer.MAX_VALUE);
+		
+		String s1 = " Sravan is a Java developer ";
+		System.out.println(s1);	// Sravan is a Java developer 
+		System.out.println(s1.trim());	//Sravan is a Java developer
+	}
+
+}

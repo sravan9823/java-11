@@ -1,0 +1,16 @@
+package com.sravanit.classenhance;
+
+public class ClassEnhancements {
+
+	public static void main(String[] args) {
+
+		Class<?>[] nestMembers = ClassEnhancements.class.getNestMembers();
+	}
+
+	class A {
+
+		class B {
+
+		}
+	}
+}

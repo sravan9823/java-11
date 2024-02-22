@@ -1,0 +1,13 @@
+package com.sravanit.httpclient;
+
+import java.net.http.HttpClient;
+import java.net.http.HttpClient.Version;
+
+public class HttpClientAPI {
+
+	public static void main(String[] args) {
+
+		HttpClient httpClient = HttpClient.newBuilder().version(HttpClient.Version.HTTP_2)
+	}
+
+}

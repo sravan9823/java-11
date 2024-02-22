@@ -1,0 +1,13 @@
+package com.sravanit.lambda;
+
+import java.util.function.Function;
+
+public class LambdaEnhancements {
+
+	public static void main(String[] args) {
+
+		Function<String, Integer> f1 = (String str) -> str.length();
+		f1.apply("Sravan")
+	}
+
+}
